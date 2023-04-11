@@ -1,6 +1,6 @@
 # uuplugin docker 版本
 
-UU 加速提供了 OpenWrt 版本的插件，见 https://router.uu.163.com/app/baike/public/5f963c9304c215e129ca40e8.html。
+UU 加速提供了 OpenWrt 版本的插件，见 https://router.uu.163.com/app/baike/public/5f963c9304c215e129ca40e8.html 
 该项目基于 OpenWrt 的 openwrtorg/rootfs 版本构完成了开启 UU 需要的配置，同时移除了一些无关服务，如 DHCP、SSH、Web luci。
 你可以使用该镜像完成旁路由模式下 UU 加速服务快速部署。
 

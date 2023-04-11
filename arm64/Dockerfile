@@ -20,7 +20,7 @@ RUN /etc/init.d/odhcpd disable
 # 关闭防火墙规则
 RUN /etc/init.d/firewall disable
 # 禁止访问 Web
-RUN /etc/init.d/uhttpd disable
+RUN /etc/init.d/uhttpd enable
 # 禁止 SSH 登录
 RUN /etc/init.d/dropbear disable
 
